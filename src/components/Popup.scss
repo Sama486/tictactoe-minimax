@@ -1,0 +1,66 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(19, 18, 18);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10%;
+    width: 50%;
+    height: 50%;
+    max-width: 40em;
+    background-color: black;
+}
+
+.close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.changeModeBtn{
+    position: absolute;
+    align-items: center;
+    background-color: black;
+    width: 80%;
+    left: 10%;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px, #fff 0 6px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .changeModeBtn:hover {
+    box-shadow: #fff 0 0 0 3px, transparent 0 0 0 0;
+  
+}
